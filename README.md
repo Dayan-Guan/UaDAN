@@ -68,7 +68,7 @@ python tools/test_net_all.py --config-file "configs/UaDAN_voc2clipart.yaml"
 ```
 
 ## Acknowledgements
-This codebase is heavily borrowed from [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark)
+This codebase is heavily borrowed from [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark) and [Domain-Adaptive-Faster-RCNN-PyTorch](https://github.com/krumo/Domain-Adaptive-Faster-RCNN-PyTorch)
 
 ## Contact
 If you have any questions, please contact: dayan.guan@ntu.edu.sg
