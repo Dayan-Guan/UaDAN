@@ -43,6 +43,7 @@ pip install torchvision==0.2.1
 ### Prepare Dataset
 * **Pascal VOC**: Download [Pascal VOC dataset](https://pjreddie.com/projects/pascal-voc-dataset-mirror) at ```UaDAN/dataset/voc```
 * **Clipart1k**: Download [Clipart1k dataset](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/cross_domain_detection/datasets/clipart.zip) at ```UaDAN/dataset/clipart``` and unzip it
+(Clipart1k dataset contains 1,000 comical images, in which 800 for training and 200 for validation.)
 ```bash
 mv tools/dataset/clipart/ImageSets dataset/clipart
 ```
