@@ -38,20 +38,37 @@ $ pip install torchvision==0.2.1
 ```
 
 ### Prepare Dataset
-* **Pascal VOC**: Download [Pascal VOC dataset](https://pjreddie.com/projects/pascal-voc-dataset-mirror) at dataset/voc
-* **Clipart1k**: Download [Clipart1k dataset](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/cross_domain_detection/datasets/clipart.zip) at dataset/clipart and unzip it
+* **Pascal VOC**: Download [Pascal VOC dataset](https://pjreddie.com/projects/pascal-voc-dataset-mirror) at ```UaDAN/dataset/voc```
+* **Clipart1k**: Download [Clipart1k dataset](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/cross_domain_detection/datasets/clipart.zip) at ```UaDAN/dataset/clipart``` and unzip it
 ```bash
 $ mv tools/dataset/clipart/ImageSets dataset/clipart
 ```
-* **Cityscapes**: Download [Cityscapes dataset](https://www.cityscapes-dataset.com) at dataset/cityscapes
-* **Mapillary Vista**: Download [Mapillary Vista dataset](https://www.mapillary.com/dataset/vistas) at dataset/vistas
+* **Cityscapes**: Download [Cityscapes dataset](https://www.cityscapes-dataset.com) at ```UaDAN/dataset/cityscapes```
+* **Mapillary Vista**: Download [Mapillary Vista dataset](https://www.mapillary.com/dataset/vistas) at ```UaDAN/dataset/vistas```
 
+### Pre-trained models
+Pre-trained models can be downloaded [here](https://github.com/Dayan-Guan/UaDAN/releases/tag/Latest) and put in ```UaDAN/pretrained_models```
 
+### Evaluation
+```bash
+$ python tools/test_net.py --config-file "configs/UaDAN_Voc2Clipart.yaml" MODEL.WEIGHT "pretrained_models/UaDAN_Voc2Clipart.pth"
+```
 
-python tools/test_net.py --config-file "configs/UaDAN_Voc2Clipart.yaml" MODEL.WEIGHT "pretrained_models/UaDAN_Voc2Clipart.pth"
-
+```bash
 python tools/test_net.py --config-file "configs/UaDAN_City2Vistas.yaml" MODEL.WEIGHT "pretrained_models/UaDAN_City2Vistas.pth"
+```
 
+### Training
+```bash
 python tools/train_net.py --config-file "configs/UaDAN_voc2clipart.yaml"
+```
 
+```bash
 python tools/test_net_all.py --config-file "configs/UaDAN_voc2clipart.yaml"
+```
+
+## Acknowledgements
+This codebase is heavily borrowed from [maskrcnn-benchmark](https://github.com/facebookresearch/maskrcnn-benchmark)
+
+## Contact
+If you have any questions, please contact: dayan.guan@ntu.edu.sg
