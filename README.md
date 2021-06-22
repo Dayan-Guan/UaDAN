@@ -11,8 +11,7 @@
 [Uncertainty-Aware Unsupervised Domain Adaptation in Object Detection](https://arxiv.org/abs/2103.00236)  
  [Dayan Guan](https://scholar.google.com/citations?user=9jp9QAsAAAAJ&hl=en), [Jiaxing Huang](https://scholar.google.com/citations?user=czirNcwAAAAJ&hl=en&oi=ao),  [Xiao Aoran](https://scholar.google.com/citations?user=yGKsEpAAAAAJ&hl=en), [Shijian Lu](https://scholar.google.com/citations?user=uYmK-A0AAAAJ&hl=en)  
  School of Computer Science Engineering, Nanyang Technological University, Singapore  
- [Yanpeng Cao](https://dblp.org/pid/91/7629.html)
- Zhejiang University
+ [Yanpeng Cao](https://dblp.org/pid/91/7629.html) Zhejiang University
  
  IEEE Transactions on Multimedia, 2021.
  
