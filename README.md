@@ -34,17 +34,17 @@ Unsupervised domain adaptive object detection aims to adapt detectors from a lab
 
 ## Installation
 ```bash
-$ conda env create -f environment.yaml
-$ conda activate uadan
-$ python setup.py build develop
-$ pip install torchvision==0.2.1
+conda env create -f environment.yaml
+conda activate uadan
+python setup.py build develop
+pip install torchvision==0.2.1
 ```
 
 ### Prepare Dataset
 * **Pascal VOC**: Download [Pascal VOC dataset](https://pjreddie.com/projects/pascal-voc-dataset-mirror) at ```UaDAN/dataset/voc```
 * **Clipart1k**: Download [Clipart1k dataset](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/cross_domain_detection/datasets/clipart.zip) at ```UaDAN/dataset/clipart``` and unzip it
 ```bash
-$ mv tools/dataset/clipart/ImageSets dataset/clipart
+mv tools/dataset/clipart/ImageSets dataset/clipart
 ```
 * **Cityscapes**: Download [Cityscapes dataset](https://www.cityscapes-dataset.com) at ```UaDAN/dataset/cityscapes```
 * **Mapillary Vista**: Download [Mapillary Vista dataset](https://www.mapillary.com/dataset/vistas) at ```UaDAN/dataset/vistas```
@@ -54,7 +54,7 @@ Pre-trained models can be downloaded [here](https://github.com/Dayan-Guan/UaDAN/
 
 ### Evaluation
 ```bash
-$ python tools/test_net.py --config-file "configs/UaDAN_Voc2Clipart.yaml" MODEL.WEIGHT "pretrained_models/UaDAN_Voc2Clipart.pth"
+python tools/test_net.py --config-file "configs/UaDAN_Voc2Clipart.yaml" MODEL.WEIGHT "pretrained_models/UaDAN_Voc2Clipart.pth"
 ```
 
 ```bash
