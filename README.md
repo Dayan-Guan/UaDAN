@@ -8,12 +8,12 @@
 
 ## Paper
 ![](./teaser.png)
-[Uncertainty-Aware Unsupervised Domain Adaptation in Object Detection](https://arxiv.org/pdf/2103.00236.pdf)  
+[Uncertainty-Aware Unsupervised Domain Adaptation in Object Detection](https://arxiv.org/abs/2103.00236)  
  [Dayan Guan](https://scholar.google.com/citations?user=9jp9QAsAAAAJ&hl=en), [Jiaxing Huang](https://scholar.google.com/citations?user=czirNcwAAAAJ&hl=en&oi=ao),  [Xiao Aoran](https://scholar.google.com/citations?user=yGKsEpAAAAAJ&hl=en), [Shijian Lu](https://scholar.google.com/citations?user=uYmK-A0AAAAJ&hl=en)  
  School of Computer Science Engineering, Nanyang Technological University, Singapore  
  IEEE Transactions on Multimedia, 2021.
  
-If you find this code useful for your research, please cite our [paper](https://arxiv.org/pdf/2103.00236.pdf):
+If you find this code useful for your research, please cite our [paper](https://arxiv.org/abs/2103.00236):
 
 ```
 @article{guan2021uncertainty,
