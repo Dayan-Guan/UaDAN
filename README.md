@@ -45,7 +45,7 @@ python setup.py build develop
 * **Clipart1k**: Download [Clipart1k dataset](http://www.hal.t.u-tokyo.ac.jp/~inoue/projects/cross_domain_detection/datasets/clipart.zip) at ```UaDAN/datasets/clipart``` and unzip it
 (Clipart1k dataset contains 1,000 comical images, in which 800 for training and 200 for validation.)
 ```bash
-mv tools/dataset/clipart/ImageSets datasets/clipart
+cp -r tools/dataset/clipart/ImageSets datasets/clipart
 ```
 * **Cityscapes**: Download [Cityscapes dataset](https://www.cityscapes-dataset.com) at ```UaDAN/datasets/cityscapes```
 * **Mapillary Vista**: Download [Mapillary Vista dataset](https://www.mapillary.com/dataset/vistas) at ```UaDAN/datasets/vistas```
