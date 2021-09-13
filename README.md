@@ -38,7 +38,7 @@ Unsupervised domain adaptive object detection aims to adapt detectors from a lab
 conda env create -f environment.yaml
 conda activate uadan
 python setup.py build develop
-pip install torchvision==0.2.1
+conda install torchvision==0.2.1
 ```
 
 ### Prepare Dataset
