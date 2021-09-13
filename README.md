@@ -64,11 +64,11 @@ python tools/test_net.py --config-file "configs/UaDAN_City2Vistas.yaml" MODEL.WE
 
 ### Training
 ```bash
-python tools/train_net.py --config-file "configs/UaDAN_voc2clipart.yaml"
+python tools/train_net.py --config-file "configs/UaDAN_Voc2Clipart.yaml"
 ```
 
 ```bash
-python tools/test_net_all.py --config-file "configs/UaDAN_voc2clipart.yaml"
+python tools/test_net_all.py --config-file "configs/UaDAN_Voc2Clipart.yaml"
 ```
 
 ## Acknowledgements
